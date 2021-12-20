@@ -20,7 +20,6 @@ html {
 
 body {
   overflow-x: hidden !important;
-  width: 100% !important;
 }
 
 .container-fluid,
@@ -139,57 +138,51 @@ a {
 }
 
 .search-items {
-  overflow: hidden;
-  width: 20%;
-  height: 3rem;
+  width: 30%;
   position: relative;
+  overflow: hidden;
 }
 
-.search-items #search-box {
-  width: 100%;
-  left: 0%;
-}
-
-.search-items #search-box #search {
-  width: 65%;
-  padding: 0.5rem;
+.search-items #search {
+  width: 60%;
+  padding: 0 0.5rem;
   border: none;
   outline: none;
   border-bottom: 1px solid #000;
   font-size: 1.7rem;
   position: absolute;
-  top: -8px;
-  right: -100%;
+  right: -200%;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
 
-.search-items #search-box #search::-webkit-input-placeholder {
-  font-size: 1.7rem;
+.search-items #search::-webkit-input-placeholder {
+  font-size: 1.5rem;
 }
 
-.search-items #search-box #search:-ms-input-placeholder {
-  font-size: 1.7rem;
+.search-items #search:-ms-input-placeholder {
+  font-size: 1.5rem;
 }
 
-.search-items #search-box #search::-ms-input-placeholder {
-  font-size: 1.7rem;
+.search-items #search::-ms-input-placeholder {
+  font-size: 1.5rem;
 }
 
-.search-items #search-box #search::placeholder {
-  font-size: 1.7rem;
+.search-items #search::placeholder {
+  font-size: 1.5rem;
 }
 
 .search-items .fa-search {
   cursor: pointer;
-  right: 0;
+  margin-left: 1rem;
+  z-index: 2;
 }
 
 .search-items .fa-search:hover {
   color: #ca2727;
 }
 
-.search-items .active-search {
+.active-search {
   right: 35% !important;
 }
 

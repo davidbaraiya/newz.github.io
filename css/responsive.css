@@ -4,7 +4,7 @@
     font-size: 54%;
   }
   html .nav-1 #logo {
-    max-width: 12rem;
+    max-width: 17rem;
   }
   html .nav-1 .social-icons {
     width: 17rem;
@@ -24,7 +24,12 @@
     height: -moz-fit-content;
     height: fit-content;
     background-color: #fff;
+    padding-left: .5rem;
     display: none;
+    z-index: 999;
+  }
+  html .nav-2 > div .navbar-nav a {
+    font-size: 2.2rem;
   }
   html .nav-2 > div .navbar-nav-active {
     display: block !important;
@@ -61,7 +66,7 @@
     padding: 2rem 1rem;
   }
   html .science {
-    width: calc(100% - 5rem);
+    width: 97%;
     margin: auto;
   }
   html .science .swiper-button-prev, html .science .swiper-rtl .swiper-button-next {
@@ -93,7 +98,7 @@
     font-size: 50%;
   }
   html .science {
-    width: calc(100% - 5rem);
+    width: 97%;
     margin: auto;
   }
   html .science .swiper-button-prev, html .science .swiper-rtl .swiper-button-next {
@@ -125,10 +130,13 @@
   html .nav-1 #logo {
     max-width: 9rem;
   }
-  html .science {
+  html .science,
+  html #sience-up {
     width: 100%;
   }
-  html .science .swiper-button-prev, html .science .swiper-rtl .swiper-button-next {
+  html .science .swiper-button-prev, html .science .swiper-rtl .swiper-button-next,
+  html #sience-up .swiper-button-prev,
+  html #sience-up .swiper-rtl .swiper-button-next {
     left: 80%;
   }
   html .header,
@@ -170,7 +178,7 @@
     width: 95%;
   }
   html .science .swiper-button-prev, html .science .swiper-rtl .swiper-button-next {
-    left: 80%;
+    left: 75%;
   }
   html .science .swiper-button-next:after, html .science .swiper-button-prev:after {
     font-size: 20px;

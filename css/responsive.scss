@@ -6,7 +6,7 @@
         
     .nav-1{
         #logo{
-            max-width: 12rem;
+            max-width: 17rem;
         }
         .social-icons{
             width: 17rem;
@@ -27,7 +27,13 @@
             width: 100%;
             height: fit-content;
             background-color: #fff;
+            padding-left: .5rem;
             display: none;
+            z-index: 999;
+
+            a{
+                font-size: 2.2rem;
+            }
         }
         .navbar-nav-active{
             display: block !important;
@@ -66,7 +72,7 @@
                 }
 
                 .science{
-                    width: calc(100% - 5rem);
+                    width:97%;
                     margin: auto;
                 
                 .swiper-button-prev, .swiper-rtl .swiper-button-next {
@@ -112,7 +118,7 @@
         font-size: 50%;
 
     .science{
-        width: calc(100% - 5rem);
+        width:97%;
         margin: auto;
     
     .swiper-button-prev, .swiper-rtl .swiper-button-next {
@@ -150,7 +156,8 @@
             max-width: 9rem;
         }
     }
-    .science{
+    .science,
+    #sience-up{
         width: 100%;
 
     .swiper-button-prev, .swiper-rtl .swiper-button-next {
@@ -194,7 +201,7 @@
         .science{
             width: 95%;
         .swiper-button-prev, .swiper-rtl .swiper-button-next {
-            left: 80%;
+            left: 75%;
         }
         .swiper-button-next:after, .swiper-button-prev:after{
             font-size: 20px;

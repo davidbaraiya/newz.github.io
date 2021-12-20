@@ -20,7 +20,6 @@ html{
 }
 body{
     overflow-x: hidden !important;
-    width: 100% !important;
 }
 .container-fluid,
 .container{
@@ -119,44 +118,38 @@ a{
     
 }
 .search-items{
-    overflow: hidden;
-    width:20%;
-    height: 3rem;
+    width:30%;
     position: relative;
-
-    #search-box{
-        width: 100%;
-        left: 0%;
+     overflow: hidden;
 
         #search{
-            width: 65%;
-            padding: 0.5rem;
+            width: 60%;
+            padding:0 0.5rem;
             border: none;
             outline: none;
             border-bottom: 1px solid #000;
             font-size: 1.7rem;
             position: absolute;
-            top: -8px;
-            right: -100%;
+            right: -200%;
             transition: all 0.2s linear;
 
             &::placeholder{
-                font-size: 1.7rem;
+                font-size: 1.5rem;
             } 
         }
-    }
    
     .fa-search{
         cursor: pointer;
-        right: 0;
+        margin-left: 1rem;
+        z-index: 2;
         
         &:hover{
             color: $red;
         }
-    }
-     .active-search{
-            right: 35% !important;
-        }
+    }  
+}
+.active-search{
+    right: 35% !important;
 }
 
 // header

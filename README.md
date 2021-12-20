@@ -1,1 +1,0 @@
-# newz.github.io
