@@ -1,0 +1,435 @@
+/* colors */
+/* popins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap");
+/* meriiWeather  */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none !important;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden !important;
+  width: 100% !important;
+}
+
+.container-fluid,
+.container {
+  padding: 0;
+}
+
+.margin-bottom {
+  margin-bottom: 6rem;
+}
+
+p {
+  font-size: 18px;
+  margin: 0 !important;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h6 {
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin-top: .8rem;
+  font-weight: bold;
+  color: #ca2727;
+}
+
+a {
+  font-size: 2rem;
+}
+
+.margin-top {
+  margin-top: 5rem;
+}
+
+.border-bottom {
+  border-bottom: 3px solid #020202 !important;
+}
+
+/* nav-1  */
+.nav-1 {
+  height: 5rem;
+  line-height: 5rem;
+  padding: 0.5rem 1.5rem 6rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.nav-1 #logo {
+  max-width: 15rem;
+}
+
+.nav-1 #logo img {
+  width: 100%;
+}
+
+.nav-1 .social-icons {
+  width: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-1 .social-icons a {
+  font-size: 1.5rem;
+  color: #020202;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.nav-1 .social-icons a:hover {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.nav-1 .signIn a {
+  color: #020202;
+  font-weight: bold;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.nav-1 .signIn a:hover {
+  color: #ca2727;
+}
+
+.nav-2 > div {
+  padding: 1.3rem 1.5rem;
+}
+
+.nav-2 > div .navbar-nav li a {
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-2 > div #menu-bar {
+  font-size: 2.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.search-items {
+  overflow: hidden;
+  width: 20%;
+  height: 3rem;
+  position: relative;
+}
+
+.search-items #search-box {
+  width: 100%;
+  left: 0%;
+}
+
+.search-items #search-box #search {
+  width: 65%;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000;
+  font-size: 1.7rem;
+  position: absolute;
+  top: -8px;
+  right: -100%;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.search-items #search-box #search::-webkit-input-placeholder {
+  font-size: 1.7rem;
+}
+
+.search-items #search-box #search:-ms-input-placeholder {
+  font-size: 1.7rem;
+}
+
+.search-items #search-box #search::-ms-input-placeholder {
+  font-size: 1.7rem;
+}
+
+.search-items #search-box #search::placeholder {
+  font-size: 1.7rem;
+}
+
+.search-items .fa-search {
+  cursor: pointer;
+  right: 0;
+}
+
+.search-items .fa-search:hover {
+  color: #ca2727;
+}
+
+.search-items .active-search {
+  right: 35% !important;
+}
+
+.header,
+.video-gallary {
+  width: calc(100% - 5rem);
+  padding: 5rem 0;
+}
+
+.header .main-pic img,
+.video-gallary .main-pic img {
+  width: 100%;
+}
+
+.header .left-side-content,
+.video-gallary .left-side-content {
+  max-width: 60rem;
+}
+
+.header .right-side-content > div,
+.video-gallary .right-side-content > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+.header .right-side-content > div img,
+.video-gallary .right-side-content > div img {
+  width: 50%;
+}
+
+#art,
+#sience-up {
+  width: calc(100% - 5rem);
+  padding: 5rem 0;
+}
+
+#art img,
+#sience-up img {
+  width: 100%;
+}
+
+#art h5,
+#sience-up h5 {
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+#art h6,
+#sience-up h6 {
+  margin-top: 2rem;
+}
+
+.video-gallary {
+  width: 100% !important;
+}
+
+.video-gallary .video-gallary-inner {
+  padding: 5rem;
+}
+
+.video-gallary .right-side-content h6 {
+  font-size: medium;
+  color: #ababab;
+  font-family: 'Poppins', sans-serif;
+}
+
+.video-gallary h5 {
+  text-decoration: underline !important;
+}
+
+.video-gallary h3 {
+  font-weight: 200;
+}
+
+.science {
+  width: calc(100% - 5rem);
+  margin: auto;
+  padding: 5rem 0;
+}
+
+.science .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.science .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.science .science-tital {
+  position: relative;
+}
+
+.science .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.science .swiper-button-next, .science .swiper-button-prev {
+  position: absolute;
+  font-size: 20px !important;
+  z-index: 10;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: var(--white-colorr);
+  background-color: var(--black-color);
+  border-radius: 5px;
+}
+
+.science .swiper-button-next:after, .science .swiper-button-prev:after {
+  font-size: 25px;
+}
+
+.science .swiper-button-prev, .science .swiper-rtl .swiper-button-next {
+  left: 90%;
+  right: auto;
+}
+
+#newsletter {
+  background-color: #f3f3f3;
+  padding: 6rem 0;
+}
+
+#newsletter div > h1 {
+  font-size: 4rem;
+}
+
+#newsletter p {
+  font-size: 1.7rem;
+  font-family: 'Merriweather', serif;
+  margin: 1rem 0;
+  font-weight: 100;
+}
+
+#newsletter p:last-child {
+  color: #ababab;
+}
+
+#newsletter .email-box {
+  text-align: center;
+  max-width: 90rem;
+  margin: 3rem auto;
+  position: relative;
+}
+
+#newsletter .email-box input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 0.8rem 0.5rem;
+  font-size: 2rem;
+  background: transparent;
+  border-bottom: 2px solid #020202;
+}
+
+#newsletter .email-box input::-webkit-input-placeholder {
+  font-size: 2rem;
+}
+
+#newsletter .email-box input:-ms-input-placeholder {
+  font-size: 2rem;
+}
+
+#newsletter .email-box input::-ms-input-placeholder {
+  font-size: 2rem;
+}
+
+#newsletter .email-box input::placeholder {
+  font-size: 2rem;
+}
+
+#newsletter .email-box button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem 3rem;
+}
+
+#footer {
+  width: 100%;
+  height: auto;
+  padding: 7rem 0;
+  background-color: #020202;
+  color: #fff;
+}
+
+#footer .row {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
+  padding-bottom: 7rem;
+}
+
+#footer .row h2 {
+  font-size: 2rem;
+}
+
+#footer .row p {
+  cursor: pointer;
+  color: #ababab;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+#footer .row p:hover {
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+}
+
+#footer .copy p {
+  color: #ababab;
+}
+/*# sourceMappingURL=main.css.map */

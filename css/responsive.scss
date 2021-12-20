@@ -1,0 +1,206 @@
+@import "color-var";
+
+@media (max-width:991px) {
+    html{
+        font-size: 54%;
+        
+    .nav-1{
+        #logo{
+            max-width: 12rem;
+        }
+        .social-icons{
+            width: 17rem;
+        }
+    }
+    .search-items{
+        width:35%;
+    }    
+
+    .nav-2>div{
+        #menu-bar{
+            display: block;
+        }
+        .navbar-nav {
+            position: absolute;
+            top: 105%;
+            left: 0;
+            width: 100%;
+            height: fit-content;
+            background-color: #fff;
+            display: none;
+        }
+        .navbar-nav-active{
+            display: block !important;
+        }
+    }
+
+    .header{
+        
+        .left-side-content{
+            max-width: 100%;
+        }
+        .right-side-content>div{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            max-width:100%;
+            margin-bottom: 1rem;
+    
+            img{
+                width: 50%;
+            }
+        }
+    } 
+    .swiper-button-prev, .swiper-rtl .swiper-button-next {
+        left: 80%;
+    }
+}
+}
+
+@media(max-width:767px){
+        html{
+            font-size: 51%;
+            
+                .video-gallary-inner{
+                    padding: 2rem 1rem;
+                }
+
+                .science{
+                    width: calc(100% - 5rem);
+                    margin: auto;
+                
+                .swiper-button-prev, .swiper-rtl .swiper-button-next {
+                    left: 85%;
+                }
+        }
+
+
+    #newsletter{
+        .email-box{
+            max-width: 60rem;
+      
+            button{
+                padding: 1rem 2rem;
+            }
+        }
+    }
+    #footer{
+
+        .row{
+            border-bottom: 1px solid rgba(255,255,255,0.3);
+            padding-bottom: 7rem;
+        
+             .footer-txt{
+                text-align: center;
+            }
+        h2{
+            font-size: 2.5rem;
+        }
+        p{
+           font-size: 2rem;
+    
+        }
+    }
+    
+    }
+
+ }
+}
+
+@media (max-width:575px){
+    html{
+        font-size: 50%;
+
+    .science{
+        width: calc(100% - 5rem);
+        margin: auto;
+    
+    .swiper-button-prev, .swiper-rtl .swiper-button-next {
+        left: 80%;
+    }
+}
+#newsletter{
+    div> h1{
+        font-size: 3rem;
+    }
+    .email-box{
+        text-align: center;
+        max-width: 40rem;
+
+        button{
+            padding: 0.8rem 1.5rem;
+        }
+    }
+}
+}
+}
+
+@media (max-width:375px) {
+    html{
+        font-size: 45%;
+    .row{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .search-items{
+        width:45%;
+    }   
+    .nav-1{
+        #logo{
+            max-width: 9rem;
+        }
+    }
+    .science{
+        width: 100%;
+
+    .swiper-button-prev, .swiper-rtl .swiper-button-next {
+        left: 80%;
+    }
+}
+     .header,
+     .video-gallary{
+        width:100%;
+
+        .video-gallary-inner {
+            padding: 2rem 1rem;
+        }
+        .left-side-content{
+            width: 100%;
+        }
+
+        .right-side-content>div{
+            flex-wrap: wrap;
+    
+            img{
+                width: 100% !important;
+                display: block;
+                margin: auto;
+            }
+        }
+    } 
+    
+  } 
+  #art{
+    width:100%;
+  }
+}
+
+@media (max-width:375px){
+    html{
+        font-size: 40%;
+        img{
+            width: 98%;
+        }
+        .science{
+            width: 95%;
+        .swiper-button-prev, .swiper-rtl .swiper-button-next {
+            left: 80%;
+        }
+        .swiper-button-next:after, .swiper-button-prev:after{
+            font-size: 20px;
+        }
+    }
+}
+}
+
+// ......................THE END........................//

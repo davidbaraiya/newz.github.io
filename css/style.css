@@ -1,0 +1,134 @@
+/* popins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap');
+/* meriiWeather  */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap');
+
+
+/* colors */
+:root{
+    --red:#ca2727;
+    --black:#020202;
+    --white:#fff;
+    --grey:#ababab;
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;    
+}
+body{
+    overflow-x: hidden !important;
+    max-width: 100%;
+}
+.container-fluid,
+.container{
+    padding: 0;
+}
+.margin-bottom{
+    margin-bottom: 6rem;
+}
+p{
+    font-size: 18px;
+    margin: 0 !important;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+h1{
+    font-size: 3rem;
+}
+h6{
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin-top: .8rem;
+    font-weight: bold;
+}
+a{
+    font-size: 2rem;
+}
+.margin-top{
+    margin-top: 5rem;
+}
+
+/* nav-1  */
+.nav-1{
+    height: 5rem;
+    line-height: 5rem;
+    padding: 0.5rem 0 6rem;
+    border-bottom: 1px solid rgb(0, 0, 0,0.3);
+}
+#logo{
+    max-width: 15rem;
+}
+#logo img{
+    width: 100%;
+}
+.social-icons{
+    width: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.social-icons a{
+    font-size: 1.5rem;
+    color: var(--black);
+    transition: 0.3s linear;
+}
+.social-icons a:hover{
+    transform: rotate(-45deg);
+}
+.nav-1 .signIn a{
+    color: var(--black);
+    font-weight: bold;
+    transition: 0.3s linear;
+}
+.nav-1 .signIn a:hover{
+    color: var(--red);
+}
+/* nav-2  */
+.nav-2>div{
+    border-bottom: 3px solid var(--black);
+    padding: 1.3rem 0;
+}
+.navbar-nav li a{
+    margin: 0 0.5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.fa-search{
+    cursor: pointer;
+}
+
+/* header  */
+.header h6{
+    color: var(--red);
+}
+.header .left-side-content{
+    max-width: 60rem;
+}
+.header .right-side-content>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width:100%;
+    margin-bottom: 1rem;
+}
+.header .right-side-content>div>img{
+    width: 50%;
+}
+
+
+
+

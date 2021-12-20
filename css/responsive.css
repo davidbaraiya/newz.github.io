@@ -1,0 +1,179 @@
+/* colors */
+@media (max-width: 991px) {
+  html {
+    font-size: 54%;
+  }
+  html .nav-1 #logo {
+    max-width: 12rem;
+  }
+  html .nav-1 .social-icons {
+    width: 17rem;
+  }
+  html .search-items {
+    width: 35%;
+  }
+  html .nav-2 > div #menu-bar {
+    display: block;
+  }
+  html .nav-2 > div .navbar-nav {
+    position: absolute;
+    top: 105%;
+    left: 0;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: #fff;
+    display: none;
+  }
+  html .nav-2 > div .navbar-nav-active {
+    display: block !important;
+  }
+  html .header .left-side-content {
+    max-width: 100%;
+  }
+  html .header .right-side-content > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+  html .header .right-side-content > div img {
+    width: 50%;
+  }
+  html .swiper-button-prev, html .swiper-rtl .swiper-button-next {
+    left: 80%;
+  }
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 51%;
+  }
+  html .video-gallary-inner {
+    padding: 2rem 1rem;
+  }
+  html .science {
+    width: calc(100% - 5rem);
+    margin: auto;
+  }
+  html .science .swiper-button-prev, html .science .swiper-rtl .swiper-button-next {
+    left: 85%;
+  }
+  html #newsletter .email-box {
+    max-width: 60rem;
+  }
+  html #newsletter .email-box button {
+    padding: 1rem 2rem;
+  }
+  html #footer .row {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 7rem;
+  }
+  html #footer .row .footer-txt {
+    text-align: center;
+  }
+  html #footer .row h2 {
+    font-size: 2.5rem;
+  }
+  html #footer .row p {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 575px) {
+  html {
+    font-size: 50%;
+  }
+  html .science {
+    width: calc(100% - 5rem);
+    margin: auto;
+  }
+  html .science .swiper-button-prev, html .science .swiper-rtl .swiper-button-next {
+    left: 80%;
+  }
+  html #newsletter div > h1 {
+    font-size: 3rem;
+  }
+  html #newsletter .email-box {
+    text-align: center;
+    max-width: 40rem;
+  }
+  html #newsletter .email-box button {
+    padding: 0.8rem 1.5rem;
+  }
+}
+
+@media (max-width: 375px) {
+  html {
+    font-size: 45%;
+  }
+  html .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  html .search-items {
+    width: 45%;
+  }
+  html .nav-1 #logo {
+    max-width: 9rem;
+  }
+  html .science {
+    width: 100%;
+  }
+  html .science .swiper-button-prev, html .science .swiper-rtl .swiper-button-next {
+    left: 80%;
+  }
+  html .header,
+  html .video-gallary {
+    width: 100%;
+  }
+  html .header .video-gallary-inner,
+  html .video-gallary .video-gallary-inner {
+    padding: 2rem 1rem;
+  }
+  html .header .left-side-content,
+  html .video-gallary .left-side-content {
+    width: 100%;
+  }
+  html .header .right-side-content > div,
+  html .video-gallary .right-side-content > div {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  html .header .right-side-content > div img,
+  html .video-gallary .right-side-content > div img {
+    width: 100% !important;
+    display: block;
+    margin: auto;
+  }
+  #art {
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  html {
+    font-size: 40%;
+  }
+  html img {
+    width: 98%;
+  }
+  html .science {
+    width: 95%;
+  }
+  html .science .swiper-button-prev, html .science .swiper-rtl .swiper-button-next {
+    left: 80%;
+  }
+  html .science .swiper-button-next:after, html .science .swiper-button-prev:after {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
