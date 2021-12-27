@@ -45,12 +45,12 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 h6 {
   font-family: 'Merriweather', serif;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   text-transform: capitalize;
   margin-top: .8rem;
   font-weight: bold;
@@ -67,6 +67,34 @@ a {
 
 .border-bottom {
   border-bottom: 3px solid #020202 !important;
+}
+
+/* preloader  */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 99;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#status {
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/Spinner.gif");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* nav-1  */
@@ -176,6 +204,7 @@ a {
   cursor: pointer;
   margin-left: 1rem;
   z-index: 2;
+  font-size: 2.5rem;
 }
 
 .search-items .fa-search:hover {

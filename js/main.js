@@ -1,14 +1,26 @@
 
 // navbar 
 $(document).ready(function(){
+  $(window).on('load', function(){ 
+    $('#status').fadeOut(); 
+    $('#preloader').delay(350).fadeOut('slow'); 
+    $('body').delay(350).css({'overflow':'visible'});
+  })
 
     $('#menu-bar').click(function(){
+      $(this).toggleClass('fa-times');
         $('.navbar-nav').toggleClass('navbar-nav-active');
     });
 
     $('#search-icon').click(function(){
         $('#search').toggleClass('active-search');
     });
+
+    $('.nav-item a').click(function(){
+        $('.navbar-nav').css({'display' : 'none'});
+        $('#menu-bar').removeClass('fa-times');
+    });
+
 
 });
 

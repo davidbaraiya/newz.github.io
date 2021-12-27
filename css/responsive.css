@@ -1,10 +1,10 @@
 /* colors */
 @media (max-width: 991px) {
   html {
-    font-size: 54%;
+    font-size: 56%;
   }
   html .nav-1 #logo {
-    max-width: 17rem;
+    max-width: 13rem;
   }
   html .nav-1 .social-icons {
     width: 17rem;
@@ -24,15 +24,14 @@
     height: -moz-fit-content;
     height: fit-content;
     background-color: #fff;
-    padding-left: .5rem;
+    padding: .5rem;
     display: none;
     z-index: 999;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
   }
   html .nav-2 > div .navbar-nav a {
     font-size: 2.2rem;
-  }
-  html .nav-2 > div .navbar-nav-active {
-    display: block !important;
   }
   html .header .left-side-content {
     max-width: 100%;
@@ -60,7 +59,7 @@
 
 @media (max-width: 767px) {
   html {
-    font-size: 51%;
+    font-size: 54%;
   }
   html .video-gallary-inner {
     padding: 2rem 1rem;
@@ -95,7 +94,7 @@
 
 @media (max-width: 575px) {
   html {
-    font-size: 50%;
+    font-size: 55%;
   }
   html .science {
     width: 97%;
@@ -113,6 +112,9 @@
   }
   html #newsletter .email-box button {
     padding: 0.8rem 1.5rem;
+  }
+  section {
+    max-width: 95%;
   }
 }
 
